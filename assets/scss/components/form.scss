@@ -1,0 +1,24 @@
+.form {
+  display: grid;
+  gap: 1rem;
+
+  &__label {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  &__input {
+    width: 100%;
+    background: var(--secondary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 0.5rem;
+    font: inherit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: 5px;
+  }
+}
